@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+/*page not found */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px ;
+}
+
+/* NavBar */
+.nav-bar {
+  height: 70px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar h2 {
+  font-size: 40px;
+}
+.nav-bag {
+  display: flex;
+  align-items: center;
+}
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: yellow;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+
+/* HOME */
+.heading h2{
+text-align: center;
+}
+.home-container {
+  padding: 25px 50px;
+}
+.home-container h2 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+/* CART */
+.cart-container {
+  padding: 25px 50px;
+}
+.cart-container h2 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bi-search{
+  display: flex;
+  align-items: center;
+}
+
+.total-amount h3{
+  padding-right: 0.5rem;
+  display: flex;
+  font-weight: 100;
+  justify-content: right;
+}
+
+
+
+/* BUTTON */
+  .button {
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: black;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+ .button:hover {
+  background-color: rgba(0, 0, 0, 0.584);
+  color: white; 
+ }
+
+ .btn {
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: red;
+  background:none;
+  border: 1px solid red;
+  cursor: pointer;
+  float: left;
+ }
+ .btn:hover {
+  background-color: red;
+  color: white; 
+ }
+
+ .form-container{
+  justify-content: center;
+
+ }
+ .form-container input{
+  display: flex;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 12px 20px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+}
+
+.form-container input:hover{
+  background-color: black;
+  color: white;
+}
